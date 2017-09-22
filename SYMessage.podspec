@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
 
 
   s.name         = "SYMessage"
-  s.version      = "1.0"
-  s.summary      = "A short description of SYMessage."
+  s.version      = "1.0.0"
+  s.summary      = "communication: KVO , Notification"
 
-  s.homepage     = "http://EXAMPLE/SYMessage"
+  s.homepage     = "https://github.com/sunyong445"
 
 
   s.license      = "MIT"
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true # 是否启用ARC
   s.platform     = :ios, "7.0" #平台及支持的最低版本
   s.social_media_url   = "http://qiubaiying.github.io" # 个人主页
-  s.public_header_files = "SYMessage/SYMessage/SYMessage.h"
+  s.public_header_files = "SYMessageDemo/SYMessage/SYMessage.h"
 
 
   s.framework  = "Foundation"
