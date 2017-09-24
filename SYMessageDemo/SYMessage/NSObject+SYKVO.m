@@ -3,7 +3,7 @@
 //  KVO封装
 //
 //  Created by SunY on 2017/9/16.
-//  Copyright © 2017年 SunY. All rights reserved.
+//  Copyright © 2017年 EOC. All rights reserved.
 //
 
 #import "NSObject+SYKVO.h"
@@ -246,7 +246,6 @@ static void* SunyKVOObserverContext = &SunyKVOObserverContext;
             
         }];
     }
-    
     self.sunyBlockInfoDict = nil;
     self.observerWithKeyPathAry = nil;
     self.beMonitorWithKeyPathAry = nil;
